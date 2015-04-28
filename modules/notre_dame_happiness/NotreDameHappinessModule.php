@@ -69,8 +69,6 @@ class NotreDameHappinessModule extends KGOModule {
         if($form->isValid()) {
             $submittedValues = $form->getSubmittedValues();
 
-            kgo_debug($submittedValues, true, true);
-
             $url = "https://whispering-atoll-2315.herokuapp.com/happiness/";
             $data = $submittedValues;
 
