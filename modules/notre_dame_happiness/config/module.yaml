@@ -1,0 +1,10 @@
+---
+common:
+    pages:                                                          #   begins definition of pages
+        index:                                                      #   'index' is a page ID.
+            pageTitle: Happiness                                       #   'pageTitle' defines a static title displayed when viewing the page
+            objdefs:                                                #   'objdefs' begins the object definition for this page
+                content: page-index.objdefs.content.default         #   'content' can be used to organize object definitions into different config areas. This references page-index.yaml
+        vote:
+            pageTitle: Vote your Happiness
+...

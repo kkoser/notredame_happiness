@@ -1,0 +1,26 @@
+---
+common:
+    fields:
+        method: POST
+        enctype: multipart/form-data
+    options:
+        urlCommand: index
+    regions:
+    -   name: items
+        contents:
+        -   class: KGOFormElementControllerHidden
+            fields:
+                name: "vote"
+                value: 1
+        -   class: KGODataController
+            uiClass: KGOUIFormButtonContainer
+            regions:
+            -   name: items
+                contents:
+                -   class: KGOFormElementControllerSubmit
+                    fields:
+                        name: submit
+                        title: ▲
+    controller:
+        allowEmpty: true
+...

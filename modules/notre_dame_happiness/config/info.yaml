@@ -1,0 +1,7 @@
+---
+title: Happiness Module
+icon: info
+vendor: notredame
+dataSourceModels:
+-   KGODataModel
+...

@@ -1,0 +1,18 @@
+---
+common:
+    objdefs:
+        content:
+            default:
+            -   class: KGOListController
+                options:
+                    grouped: true
+                regions:
+                    items:
+                        name: items
+                        contents:
+                        -   fields:
+                                title: Current Happiness
+                                subtitle:
+                                    kgoResolveType: method
+                                    kgoResolveValue: getHappinessPercent
+...

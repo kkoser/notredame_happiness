@@ -1,0 +1,11 @@
+---
+id: notredame/notredame_happiness
+description: A module to determine user happiness. Developed by Zach Waterson and Kyle Koser
+license: commercial
+version: 1.0.0
+require:
+    kurogo/kurogo-core: '2.0.*'
+    kurogo/kurogo-core: '2.1.*'
+    kurogo/kurogo-core: '2.2.*'
+    kurogo/kurogo-core: '2.3.*'
+...

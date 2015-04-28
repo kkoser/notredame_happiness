@@ -1,0 +1,7 @@
+---
+title: 'Notre Dame Happiness'
+args:
+    dataModel: KGODataModel
+    dataRetriever: KGOURLDataRetriever
+    dataParser: KGOJSONDataParser
+...
